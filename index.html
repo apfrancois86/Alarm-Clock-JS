@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Well look at the time! </h3>
+      <h3 id="time"></h3>
+      <form id="alarmClock">
+        <h3>Enter time to set your alarm:</h3>
+        <label for="hour">Enter an hour to set your alarm:</label>
+        <input type="number" name="hour" id="inputHour">
+        <br>
+        <label for="minute">Enter minutes to set your alarm:</label>
+        <input type="number" name="minute" id="inputMinute">
+        <button type="submit" class="btn btn-warning">Set Alarm</button>
+      </form>
+      <h3 id="showAlarm"></h3>
+    </div>
+    <div class="alarmOn">
+      <h1>ALARM TIME!!!</h1>
+    </div>
+  </body>
+</html>
